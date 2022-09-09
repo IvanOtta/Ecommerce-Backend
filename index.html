@@ -4,9 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Productos</title>
 </head>
 <body>
-    <h1>helloooooo</h1>
+
+    <style>
+        form{
+            display: flex;
+            flex-direction: column;
+            width: 30vh;
+            padding: 12px;
+            align-items: center;
+        }
+        input{
+            padding: 5px;
+            border: 1px solid black;
+            border-radius: 10px;
+        }
+    </style>
+
+    <form action="/api/productos" method="post" >
+        <label for="name">Name</label>
+        <input type="text" id="name" title="name" name="name"><br>
+        <label for="price">Price</label>
+        <input type="text" id="price" title="price" name="price"><br>
+        <label for="thumbnail">Thumbnail</label>
+        <input type="thumbnail" id="thumbnail" title="thumbnail" name="thumbnail">
+        <input type="submit" value="Send">
+    </form>
+    
 </body>
 </html>

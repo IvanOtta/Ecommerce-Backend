@@ -1,0 +1,26 @@
+[
+  {
+    "name": "producto actualizado",
+    "price": "gratis",
+    "thumbnail": "dfdfdfdf",
+    "id": 1
+  },
+  {
+    "name": "hola2222",
+    "price": 400,
+    "thumbnail": "dfdfdfdf",
+    "id": 2
+  },
+  {
+    "name": "hola2222",
+    "price": 400,
+    "thumbnail": "dfdfdfdf",
+    "id": 3
+  },
+  {
+    "name": "Audi",
+    "price": "100000",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/3/32/BMW_G20%2C_Paris_Motor_Show_2018%2C_IMG_0493.jpg",
+    "id": 5
+  }
+]
